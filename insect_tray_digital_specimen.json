@@ -1,0 +1,110 @@
+{
+  "@id": "https://doi.org/10.3535/TRAY-ENT-001",
+  "@type": "ods:DigitalSpecimen",
+  "dcterms:identifier": "https://doi.org/10.3535/TRAY-ENT-001",
+  "ods:version": 1,
+  "ods:status": "Active",
+  "dcterms:created": "2024-09-10T10:00:00.000Z",
+  "dcterms:modified": "2024-09-10T10:00:00.000Z",
+  "ods:fdoType": "https://doi.org/21.T11148/894b1e6cad57e921764e",
+  "ods:midsLevel": 2,
+  "ods:physicalSpecimenID": "ENT-TRAY-2024-88",
+  "ods:normalisedPhysicalSpecimenID": "ENT-TRAY-2024-88",
+  "ods:physicalSpecimenIDType": "Local",
+  "ods:sourceSystemID": "https://hdl.handle.net/20.5000.1025/SRC-ENT-01",
+  "ods:organisationID": "https://ror.org/0566bfb96",
+  "ods:organisationName": "Natural History Museum",
+  "ods:topicOrigin": "Natural",
+  "ods:topicDomain": "Life",
+  "ods:topicDiscipline": "Zoology",
+  "ods:livingOrPreserved": "Preserved",
+  "dwc:basisOfRecord": "PreservedSpecimen",
+  "dwc:preparations": "pinned insect tray",
+  "ods:specimenName": "Mixed Carabidae tray",
+  "dwc:organismQuantity": "15",
+  "dwc:organismQuantityType": "individuals",
+  "dwc:organismScope": "tray",
+  "ods:isKnownToContainMedia": true,
+  "dcterms:license": "https://creativecommons.org/licenses/by/4.0/",
+  "ods:hasEvents": [
+    {
+      "@type": "ods:Event",
+      "dwc:eventType": "Collecting",
+      "dwc:eventDate": "2023-06-15",
+      "dwc:samplingProtocol": "Malaise trap",
+      "ods:hasLocation": {
+        "@type": "ods:Location",
+        "dwc:country": "Germany",
+        "dwc:countryCode": "DE",
+        "dwc:stateProvince": "Bavaria",
+        "dwc:locality": "Bavarian Forest National Park"
+      }
+    }
+  ],
+  "ods:hasSpecimenParts": [
+    {
+      "@type": "ods:SpecimenPart",
+      "dwc:materialEntityID": "TRAY-88-PART-A",
+      "ods:specimenName": "Carabus auronitens Fabricius, 1792",
+      "dwc:preparations": "pinned adult",
+      "dwc:organismQuantity": "5",
+      "dwc:organismQuantityType": "individuals",
+      "ods:isMarkedAsType": false,
+      "ods:hasIdentifications": [
+        {
+          "@type": "ods:Identification",
+          "ods:identificationType": "TaxonIdentification",
+          "dwc:verbatimIdentification": "Carabus auronitens",
+          "ods:isVerifiedIdentification": true,
+          "ods:hasTaxonIdentifications": [
+            {
+              "@type": "ods:TaxonIdentification",
+              "dwc:scientificName": "Carabus auronitens Fabricius, 1792",
+              "dwc:kingdom": "Animalia",
+              "dwc:phylum": "Arthropoda",
+              "dwc:class": "Insecta",
+              "dwc:order": "Coleoptera",
+              "dwc:family": "Carabidae",
+              "dwc:genus": "Carabus",
+              "dwc:specificEpithet": "auronitens",
+              "dwc:taxonRank": "species",
+              "dwc:taxonomicStatus": "accepted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "ods:SpecimenPart",
+      "dwc:materialEntityID": "TRAY-88-PART-B",
+      "ods:specimenName": "Carabus violaceus Linnaeus, 1758",
+      "dwc:preparations": "pinned adult",
+      "dwc:organismQuantity": "10",
+      "dwc:organismQuantityType": "individuals",
+      "ods:isMarkedAsType": false,
+      "ods:hasIdentifications": [
+        {
+          "@type": "ods:Identification",
+          "ods:identificationType": "TaxonIdentification",
+          "dwc:verbatimIdentification": "Carabus violaceus",
+          "ods:isVerifiedIdentification": true,
+          "ods:hasTaxonIdentifications": [
+            {
+              "@type": "ods:TaxonIdentification",
+              "dwc:scientificName": "Carabus violaceus Linnaeus, 1758",
+              "dwc:kingdom": "Animalia",
+              "dwc:phylum": "Arthropoda",
+              "dwc:class": "Insecta",
+              "dwc:order": "Coleoptera",
+              "dwc:family": "Carabidae",
+              "dwc:genus": "Carabus",
+              "dwc:specificEpithet": "violaceus",
+              "dwc:taxonRank": "species",
+              "dwc:taxonomicStatus": "accepted"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

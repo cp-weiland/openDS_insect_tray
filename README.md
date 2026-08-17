@@ -30,16 +30,16 @@ If the compound unit contains multiple individuals of the same taxon under one r
   "dwc:organismQuantityType": "individuals",
   "dwc:organismScope": "tray"
 }
-
+```
 3. Discrete Digital Specimens Linked via ods:hasEntityRelationships
 
 Best for: Objects where each specimen or pinned insect possesses its own unique barcode / ID.
 
 If each individual specimen has its own unique unit ID or barcode, each is published as an independent DigitalSpecimen FDO. They are linked together or to the parent container using ods:hasEntityRelationships:
-JSON
-
+```json
 {
   "dwc:relationshipOfResource": "containedInTray",
   "dwc:relatedResourceID": "[https://doi.org/10.xxxx/container-id](https://doi.org/10.xxxx/container-id)"
 }
+```
 
